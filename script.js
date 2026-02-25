@@ -1,5 +1,5 @@
 colors = [
-  "#943126",
+  "#943149",
   "#4A235A",
   "#004c6d",
   "#488f31",
@@ -109,7 +109,8 @@ function groupByRegion(data) {
       return element.ownership;
     })
     .entries(data);
-}
+}
+
 function groupByOwnership(data) {
   return d3
     .nest()
